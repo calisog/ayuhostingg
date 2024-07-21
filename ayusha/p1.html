@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Love Ayusha</title>
+    <link rel="stylesheet" href="p1.css">
+</head>
+<body>
+    <div class="p1title">
+    <h2>GOOOOOOOOOOOOOD JOBBBBBBBBBBBBBBBBBBBBBBBBBBBBB!!!!!!!!!!</h2>
+    </div>
+
+    <div class="vidpid">
+    <video id="video" src="hap.mp4" autoplay muted width="40%" height="30%"></video>
+    </div>
+
+
+    <div class="p1title">
+        <h2>NEW ROUND!! QNA</h2>
+    </div>
+
+
+    <div class="p1title">
+        <h2>Who would win in a fistfight full on boxing match</h2>
+    </div>
+    <div class="round1">
+        <div class="r1l">
+            <a href="./yes.html"><img src="./ayy.png" alt="" width="550px" height="700px"></a>
+        </div>
+        <div class="r1l">
+            <a href="./no.html"><img src="./cal.jpg" alt="" width="550px" height="700px"></a>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script>
+        const video = document.getElementById('video');
+        
+        video.addEventListener('loadedmetadata', () => {
+            video.currentTime = 0;
+            video.play();
+            setTimeout(() => {
+                video.pause();
+                video.remove();
+                // Add your next code here
+            },4000); // 10000 milliseconds = 10 seconds
+        });
+    </script>
+
+    
+</body>
+</html>

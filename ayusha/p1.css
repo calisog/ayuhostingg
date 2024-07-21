@@ -1,0 +1,36 @@
+h2{
+    color: #b36068;
+}
+
+
+.p1title{
+    display: flex;
+    justify-content: center;
+}
+
+.vidpid{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.round1{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.round1 img{
+    transition: 0.3s;
+}
+
+.round1 img:hover{
+    transform: scale(1.1);
+}
+
+.btn{
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+}
